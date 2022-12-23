@@ -1,0 +1,137 @@
+#accroche{
+	color:white;
+	position:center;
+	padding:auto;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+#presentation{
+	color:#999999;
+	position:center;
+	padding:auto;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.topnav {
+  	overflow: hidden;
+  	background-color: #2E2E2E;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 40px 30px;
+  text-decoration: none;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.topnav a:hover {
+  background-color: #999999;
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.center {
+  	margin: auto;
+  	width: auto;
+  	padding: 2em;
+	background-color:#373737;
+}
+.center2 {
+  	margin: auto;
+  	width: auto;
+  	padding: 2em;
+	background-color:#373737;
+}
+
+body { 
+	margin: 0;
+	background-color:#373737;
+}
+
+
+
+
+div.gallery:hover {
+  background-color: white;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  position: center;
+} 
+
+.responsive {
+  padding: 0 5px;
+  float: left;
+  width: 50%;
+  position: center;
+  margin: 3px 0;
+}
+div.gallery2:hover {
+  background-color: white;
+}
+
+div.gallery2 img {
+  width: 100%;
+  height: auto;
+  position: center;
+} 
+.responsive2 {
+  padding: 0 5px;
+  float: center;
+  width: 50%;
+  position: center;
+  margin: 5px 0;
+}
+
+div.gallery3 img {
+  width: 100%;
+  height: auto;
+  position: center;
+} 
+.responsive3 {
+  padding: 0 5px;
+  float: center;
+  width: 45%;
+  position: center;
+  margin: 5px 0;
+}
+
+* {
+  box-sizing: border-box;
+  position: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .responsive2 {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive2 {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin 5px 0;
+}
